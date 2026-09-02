@@ -1,6 +1,6 @@
 <div align="center">
 
-# FlatMC Java Alpha
+# FlatMC Java Edition
 
 ### An archived Java implementation of the FlatMC 2D sandbox game
 

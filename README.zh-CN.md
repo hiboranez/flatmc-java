@@ -1,6 +1,6 @@
 <div align="center">
 
-# FlatMC Java Alpha
+# FlatMC Java Edition
 
 ### FlatMC 2D 沙盒游戏的 Java 历史实现
 
