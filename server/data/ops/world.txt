@@ -1,0 +1,3 @@
+op = 薄言EZ
+op = 薄言
+op = boyanez
