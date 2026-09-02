@@ -6,6 +6,7 @@
 
 [![Java](https://img.shields.io/badge/Java-Desktop-orange?logo=openjdk)](https://www.java.com/)
 [![Version](https://img.shields.io/badge/Version-0.4.0-blue)](#version-history)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Archived-lightgrey)](#project-status)
 
 **English** | [简体中文](README.zh-CN.md)
@@ -37,6 +38,7 @@ flatmc-java/
 │   ├── src/             # Dedicated server source
 │   └── data/            # Server data and resources
 ├── CHANGELOG.zh-CN.md
+├── LICENSE
 ├── README.md
 └── README.zh-CN.md
 ```
@@ -73,4 +75,4 @@ Development has ended. FlatCraft is the successor to FlatMC. No maintenance or f
 
 ## License
 
-The dedicated server retains its original [MIT License](server/LICENSE). The original client repository did not include a root license, so this combined historical repository does not claim one unified license. Assets and third-party components may be subject to separate terms.
+Except where otherwise noted, this project is licensed under the [MIT License](LICENSE). Bundled assets and third-party components may be subject to separate terms.

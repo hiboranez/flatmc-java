@@ -6,6 +6,7 @@
 
 [![Java](https://img.shields.io/badge/Java-Desktop-orange?logo=openjdk)](https://www.java.com/)
 [![Version](https://img.shields.io/badge/Version-0.4.0-blue)](#版本记录)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Archived-lightgrey)](#项目状态)
 
 [English](README.md) | **简体中文**
@@ -37,6 +38,7 @@ flatmc-java/
 │   ├── src/             # 专用服务器源码
 │   └── data/            # 服务器数据和资源
 ├── CHANGELOG.zh-CN.md
+├── LICENSE
 ├── README.md
 └── README.zh-CN.md
 ```
@@ -73,4 +75,4 @@ flatmc-java/
 
 ## 许可证
 
-专用服务器保留其原有的 [MIT License](server/LICENSE)。原客户端仓库没有根许可证，因此合并后的历史仓库不声明统一许可证。素材和第三方组件可能适用单独条款。
+除另有说明外，本项目采用 [MIT License](LICENSE)。仓库内附带的素材和第三方组件可能适用单独条款。
