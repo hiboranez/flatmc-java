@@ -1,41 +1,136 @@
-# FlatMC Java Edition Alpha v0.1.0 - 首个归档版本
+# FlatMC Java Edition Alpha 版本记录
 
-版本 0.1.0 记录了 FlatMC 最初 Java 实现的第一个有明确资料可考的开发里程碑。该版本最初发布于 2023 年 11 月 7 日，奠定了玩家控制、方块交互和游戏模式等基础玩法。
+> [!IMPORTANT]
+> 本仓库缺少各历史版本对应的完整源码提交和可验证构建。所有规范化版本标签均使用 FlatMC Java Edition 最终 `v0.4.0` 归档源码快照；GitHub 自动生成的源码压缩包不是早期 Release 的原始源码。
 
-[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.1.0)
+## Alpha v0.1.0 · 2023-11-07
 
-### 游戏基础
+FlatMC Java Edition 的首个有明确记录的开发版本。
 
-- 加入基础玩家移动系统，支持使用 W 键跳跃、A/D 键左右移动，以及双击 A/D 键奔跑。
-- 加入方块交互，支持长按鼠标左键破坏方块，并使用鼠标右键放置方块。
-- 加入掉落物拾取机制，玩家靠近掉落物后可以将其收集。
-- 加入快捷栏选择，支持使用鼠标滚轮切换当前选中的物品。
-- 加入生存模式与创造模式，并可使用 F4 在两种模式之间切换。
-- 创造模式下放置方块不消耗物品，且玩家免疫伤害。
-- 加入摔落伤害。
-- 加入生命恢复机制，玩家长时间未受到伤害后可以恢复生命值。
-- 为石头加入较慢的破坏速度；该阶段破坏石头尚不会产生对应掉落物。
+### 游戏内容
 
-### 文档
-
-- 将英文文档设置为仓库默认 README。
-- 增加简体中文 README，并在中英文文档顶部提供双向语言切换链接。
-- 记录项目的玩法功能、仓库结构、规范化版本历史、已知限制和归档状态。
-- 注明原始历史版本与当前归档仓库快照之间的区别。
-- 增加本版本专用的简体中文更新日志。
-- 明确说明 FlatMC 已停止维护并由 FlatCraft 取代。
+- 加入移动、跳跃、双击奔跑、方块破坏与放置。
+- 加入掉落物拾取和鼠标滚轮快捷栏选择。
+- 加入生存与创造模式；创造模式不消耗物品并免疫伤害。
+- 加入摔落伤害和脱战生命恢复。
 
 ### 已知限制
 
-- 原始版本尚未完成完整的玩家死亡与重生流程。
-- 原始世界仍然有边界，只包含早期方块、移动和游戏模式等基础系统。
-- 石头破坏后尚不会掉落对应方块。
-- 尚未加入后续版本中的随机地形、时间、光照、完整背包、合成、怪物和多人游戏。
-- 原始 `v0.1.0` 源码提交与可验证的原始二进制文件尚未恢复。
-- 当前 `v0.1.0` 标签保存的是经过整理和合并后的归档仓库状态，并不是对原始 `v0.1.0` 源码树的重建。
-- 仓库中的历史存档格式和网络协议不兼容 FlatCraft。
-- 部分素材和第三方组件可能适用独立于源码的授权条款。
+- 尚无完整死亡与重生流程，世界仍然有界。
+- 石头破坏后尚不掉落方块。
 
-### 项目状态
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.1.0)
 
-**已归档 / 不再维护。** 这是 FlatMC Java Edition 的第一个规范化历史归档版本。仓库仅用于保存项目历史和提供参考，不代表仍在维护的正式产品。后续历史版本只有在版本资料、源码或构建归属经过核对后才会继续发布。
+## Alpha v0.2.0 · 2023-11-10
+
+### 游戏内容
+
+- 加入 F11 全屏、平滑镜头跟随并扩大地图。
+- 加入基岩、死亡、重生、死亡掉落和掉落物吸引。
+- 加入 Q 键丢弃物品以及创造模式飞行。
+- 创造模式取消方块交互距离和邻接限制。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.2.0)
+
+## Alpha v0.2.1 · 2023-11-11
+
+### 游戏内容
+
+- 加入随机地形并再次扩大地图。
+- 超出地图边界时玩家死亡。
+- 不再渲染视野外方块。
+
+### 修复
+
+- 修复玩家穿模问题。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.2.1)
+
+## Alpha v0.2.2 · 2023-11-12
+
+### 游戏内容
+
+- 加入工具、木制品和随机树林。
+- 加入工具耐久，并让对应工具加快方块破坏速度。
+- 背包已满时不再继续拾取物品。
+- 加入退出自动保存并优化玩家动作。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.2.2)
+
+## Alpha v0.2.3 · 2023-11-17
+
+### 游戏内容
+
+- 加入时间系统、光照渲染和火把。
+- 工具耐久改为进度条显示，耗尽后工具损坏。
+- 加入草方块蔓延与消亡。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.2.3)
+
+## Alpha v0.3.0 · 2023-11-21
+
+### 游戏内容
+
+- 加入 E 键背包和 Esc 设置页面。
+- 加入夜间弱光刷怪、攻击冷却和新版死亡页面。
+- 和平难度会清除怪物。
+- 加入完整游戏 UI 的早期实现。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.3.0)
+
+## Alpha v0.3.1 · 2023-11-24
+
+### 游戏内容
+
+- 加入更多工具、矿物和随机矿脉。
+- 加入背包合成、工作台界面和常用配方。
+- 扩充创造模式物品栏。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.3.1)
+
+## Alpha v0.3.2 · 2023-11-25
+
+### 游戏内容
+
+- 加入 Shift + 左键快速合成和 Ctrl + 左键快速整理。
+- 加入拖出丢弃、选中物品提示和悬浮名称。
+- 加入中文界面。
+- 调整世界重力和摩擦力。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.3.2)
+
+## Alpha v0.3.3 · 日期未确认
+
+### 归档说明
+
+- 公开版本表确认该版本存在，但完整更新日志、原始源码和构建尚未恢复。
+- 本 Release 仅建立历史索引，不根据前后版本差异推测功能。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.3.3)
+
+## Alpha v0.4.0 · 日期未确认
+
+FlatMC Java Edition 的最终开发阶段。
+
+### 多人游戏
+
+- 加入 Java TCP 多人客户端和默认端口为 `25565` 的专用服务器。
+- 加入玩家注册、登录、聊天、私聊、传送请求、家和出生点保护。
+- 加入管理员、踢出、封禁等服务器命令。
+- 加入玩家、方块、实体、世界状态和声音同步。
+
+### 游戏内容
+
+- 保留单人世界、生存与创造模式、物品栏、合成、僵尸和完整指令体系。
+- 修复已知问题并提升运行流畅度。
+
+### 仓库归档
+
+- Java 客户端与专用服务器源码合并到同一仓库。
+- 原服务端仓库保留迁移说明并归档。
+
+[English release notes](https://github.com/hiboranez/flatmc-java/releases/tag/v0.4.0)
+
+## 项目状态
+
+**已归档 / 不再维护。** FlatMC 已由 FlatCraft 取代。以上 Release 用于保存版本历史，不保证与 FlatCraft 兼容。
