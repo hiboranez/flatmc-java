@@ -134,4 +134,3 @@ FlatMC Java Edition 的最终开发阶段。
 ## 项目状态
 
 **已归档 / 不再维护。** FlatMC 已由 FlatCraft 取代。以上 Release 用于保存版本历史，不保证与 FlatCraft 兼容。
-
