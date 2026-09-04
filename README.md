@@ -47,23 +47,23 @@ flatmc-java/
 
 | Version | Date | Summary |
 | --- | --- | --- |
-| v0.1.0 | 2023-11-07 | Initial movement, block interaction, and game modes |
-| v0.2.0 | 2023-11-10 | Death, item drops, flight, and a larger world |
-| v0.2.1 | 2023-11-11 | Random terrain and rendering improvements |
-| v0.2.2 | 2023-11-12 | Tools, durability, trees, and saving improvements |
-| v0.2.3 | 2023-11-17 | Time, lighting, torches, and grass behavior |
-| v0.3.0 | 2023-11-21 | Inventory, hostile mobs, combat cooldown, and UI |
-| v0.3.1 | 2023-11-24 | Ores, tools, crafting, and workbenches |
-| v0.3.2 | 2023-11-25 | Inventory shortcuts, Chinese, and physics adjustments |
-| v0.3.3 | Unknown | Historical release; detailed records have not been recovered |
-| v0.4.0 | Unknown | Multiplayer and dedicated server |
+| 0.1.0 | 2023-11-07 | Initial movement, block interaction, and game modes |
+| 0.2.0 | 2023-11-10 | Death, item drops, flight, and a larger world |
+| 0.2.1 | 2023-11-11 | Random terrain and rendering improvements |
+| 0.2.2 | 2023-11-12 | Tools, durability, trees, and saving improvements |
+| 0.2.3 | 2023-11-17 | Time, lighting, torches, and grass behavior |
+| 0.3.0 | 2023-11-21 | Inventory, hostile mobs, combat cooldown, and UI |
+| 0.3.1 | 2023-11-24 | Ores, tools, crafting, and workbenches |
+| 0.3.2 | 2023-11-25 | Inventory shortcuts, Chinese, and physics adjustments |
+| 0.3.3 | Unknown | Historical release; detailed records have not been recovered |
+| 0.4.0 | Unknown | Multiplayer and dedicated server |
 
-The first normalized GitHub release is `v0.1.0`. Later historical releases will be published only after their records have been reviewed.
+The first normalized GitHub release is `0.1.0`. Later historical releases will be published only after their records have been reviewed.
 
 ## Known Limitations
 
 - The repository is a preservation snapshot rather than a reconstructed source tree for every historical release.
-- No original, verifiable `v0.1.0` binary is currently included.
+- No original, verifiable `0.1.0` binary is currently included.
 - Historical save and network formats are not compatible with FlatCraft.
 - Some bundled assets may have licensing terms separate from the source code.
 
